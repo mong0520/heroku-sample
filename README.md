@@ -19,6 +19,9 @@
 3. Clone this sameple project `git clone git@git.ouroath.com:nwei/heroku-sample.git`
 
 # Develop
+
+If you use heroku docker image, just replace the command `heroku` by `sudo docker run --rm -e HEROKU_API_KEY=<YOUR_API_KEY> wingrunr21/alpine-heroku-cli`
+
 ## Build
 
 ```
